@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #333;
+}
+
+li {background-color: #333;
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px 0px;
+  text-decoration: none;
+  margin: 12px;
+  margin-left: 0px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+p {
+  columns: 4;
+  column-rule: solid 4px;
+}
